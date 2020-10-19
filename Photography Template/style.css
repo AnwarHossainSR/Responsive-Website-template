@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+}
+::placeholder{
+	color: #1abc9c!important;
+}
+body{
+ 	background:rgba(30, 39, 46,1.0);
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ .navbar{
+ 	background:rgba(30, 39, 46,1.0)!important;
+
+ }
+ .navbar .collapse ul li a{
+ 	color: #1abc9c!important;
+ }
+ .navbar .collapse ul li a:hover{
+ 	color: #bdc3c7!important;
+ }
+ .navbar-brand img{
+	width: 80px;
+	height: 60px;
+}
+.icon{
+	font-size: 20px;
+	cursor:pointer;
+	padding:5px;
+	color: #1abc9c;
+}.icon:hover{
+	color: #bdc3c7!important;
+}
+.input-group-text , .form-control{
+	background:rgba(30, 39, 46,1.0)!important;
+}
+/* 2nd section*/
+
+.intro_number{
+	font-size:4rem;
+}
+.intro_span{
+	font-size: 1rem;
+}
+
+/*3rd section*/
+
+.card{
+	background:#1E272E!important;
+	border:none;
+	box-shadow: 1px 1px 4px rgba(255, 255, 255,1.0)!important;
+}
+/* 4th section*/
+
+.fa-trophy,.fa-certificate,.fa-assistive-listening-systems,.fa-joomla,.fa-quote-right{
+	font-size: 55px;
+	display: flex;
+	justify-content: center;
+	color: #878787;
+}
+.card a{
+	text-decoration: none;
+}
+
+/*6th section*/
+
+#carouselExampleIndicators .carousel-item img{
+	display: flex!important;
+	justify-content: center;!important;
+	align-items: center;
+}
+#carouselExampleIndicators .carousel-item p{
+	margin: 0 15ppx!important;
+	margin-bottom: 25px!important;
+}
+
+.footer_image img{
+	width: 130px;
+	height: 120px;
+}
+footer ul li{
+	cursor: pointer;
+	margin-top: 9px;
+}
